@@ -10,9 +10,9 @@ on:
     branches: [main, master]
     tags: ["v*"]
     paths:
-      - "filter_bukpot.py"
+      - "filter_pdf_pph23.py"
       - "requirements.txt"
-      - ".github/workflows/build-filter-bukpot.yml"
+      - ".github/workflows/build-exe.yml"
   workflow_dispatch: {}
 
 jobs:
