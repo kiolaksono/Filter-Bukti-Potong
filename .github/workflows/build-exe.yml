@@ -38,7 +38,7 @@ jobs:
         run: >
           pyinstaller --onefile --console
           --name foldering-bupot
-          filer_pdf_pph23.py
+          filter_pdf_pph23.py
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
